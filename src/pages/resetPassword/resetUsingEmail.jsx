@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from '../../Stayles/resetPass.module.css'
 
 const UsingEmail = () => {
