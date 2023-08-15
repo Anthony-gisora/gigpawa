@@ -1,0 +1,26 @@
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, black, rgb(68, 252, 7));
+    color: orange;
+    border: 1px solid yellow;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+@media (max-width: 750px) {
+    .logoContainer > h3{
+        font-size: 16px;
+    }
+    .logoContainer > h1{
+        font-size: 20px;
+    }
+    .logoContainer{
+        height: 90px;
+        width: 90px;
+    }
+}

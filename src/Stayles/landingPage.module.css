@@ -1,0 +1,173 @@
+.landingPageContaine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.animatedDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 98%;
+    height: 97vh;
+    background-color: rgb(174, 183, 174);
+    border-radius: 5px;
+    padding: 0.5%;
+
+}
+
+.animatedDesc > p{
+    font-size: 18px;
+}
+
+.getStatedBtn{
+    margin-left: 3px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.493);
+    border-radius: 8px;
+}
+
+.getStatedBtn:hover{
+    background-color: rgba(0, 0, 255, 0.786);
+    border: 1px solid white;
+}
+
+.briefDesc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: rgb(81, 65, 68);
+
+}
+
+.briefDesc > h3{
+    font-size: 24px;
+    color: rgb(0, 255, 251);
+}
+
+.Fawait{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 2px;
+}
+
+.briefFirst{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding: 2px;
+}
+
+.briefFirst > p, .Fawait > p{
+    font-size: 24px;
+}
+
+.empower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    width: 100%;
+    height: 70vh;
+}
+
+.empower::-webkit-scrollbar{
+    display: none;
+}
+
+.categoryList{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+    height: fit-content;
+    background-color: rgba(255, 166, 0, 0.374);
+}
+
+.categoryList::-webkit-scrollbar{
+    display: none;
+}
+
+.categoryList > :nth-child(:first-child){
+    margin-left: 0;
+}
+
+
+
+
+@media (max-width: 750px) {
+    .empower::-webkit-scrollbar{
+        display: none;
+    }
+    .animatedDesc{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: 70vh;
+        border-radius: 3px;
+        margin: 1px;
+        padding: 1px;
+    }
+    
+    .briefDesc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1px;
+        padding: 1px;
+        /* background-color: rgb(81, 65, 68); */
+        background-color: transparent;
+
+}
+
+    .animatedDesc > p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .Fawait{
+    /* background-color: steelblue; */
+    background-color: rgba(255, 0, 0, 0.41);
+    width: 100%;
+    padding: 1px;
+}
+
+    .briefFirst{
+    width: 100%;
+    border-bottom: 4px solid white;
+    padding: 1px;
+}
+
+    .Fawait > h4{
+    font-size: 24px;
+    color: rgb(30, 91, 90);
+}
+
+    .empower{
+        width: 100%;
+        flex-direction: column;
+    }
+
+}

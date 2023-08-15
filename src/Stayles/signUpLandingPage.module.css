@@ -1,0 +1,93 @@
+.signUpLPContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 0, 0.483);
+    width: 80% ;
+    height: 70%;
+}
+
+.clientContainer, .seekerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    
+}
+
+.clientContainer{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.seekerContainer{
+    border-bottom: 5px solid white;
+
+}
+
+.clientDes, .jobSeekerDes{
+    text-align: center;
+    font-size: 24px;
+}
+
+em{
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.getStarted{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px;
+    border: 1px solid green;
+}
+
+@media (max-width:750px) {
+    .signUpLPContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90% ;
+    height: 90vh;
+}
+
+    .clientContainer, .seekerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    
+}
+    .clientContainer{
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+    .seekerContainer{
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+
+}
+    em{
+        font-weight: 700;
+        font-family: monospace;
+    }
+    .clientDes, .jobSeekerDes{
+        font-size: 20px;
+    }
+    
+}

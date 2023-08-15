@@ -1,0 +1,170 @@
+.jobSeekerContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    border:2px solid rgb(3, 239, 232);
+    border-radius: 3%;
+    background-color: rgba(130, 137, 133, 0.472);
+    justify-content: center;
+}
+
+.seekerContainer > button{
+    text-align: center;
+}
+
+.formInputs{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    margin-bottom: 8px;
+}
+
+.name > input{
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    color: black;
+    font-size: 18px;    ;
+
+}
+
+.name > input:focus{
+    outline: none;
+}
+
+.name > input::placeholder{
+    color: white;
+}
+
+.otherInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.otherInputs > input{
+    width: 77%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    color: black;
+    font-size: 18px; 
+}
+
+.respo{
+    display: none;
+}
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.submitBtn{
+    align-self: center;
+    width: 20%;
+    height: 8%;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16;
+    min-width: fit-content;
+}
+.submit > a:hover{
+    color:rgb(164, 234, 59);
+}
+
+
+.altLogIn{
+    text-align: center;
+    border: 1px solid rgb(0, 254, 0);
+    border-radius: 6px;
+    width: 70%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.558);
+}
+
+.altLogIn > button{
+    background-color: transparent;
+    border: none;
+    width: inherit;
+    height: inherit;
+    font-size: 18px;
+}
+
+@media (max-width: 750px) {
+    .formContainer{
+        justify-content: space-around;
+        width: 90%;
+    }
+    .formInputs{
+        height: fit-content;
+        width: 100%;
+    }
+    .name{
+        display: none;
+    }
+
+    .respo{
+        display: flex;
+    }
+
+
+    .otherInputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .submitBtn{
+        align-self: center;
+        width: 30%;
+        background-color: green;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        font-size: 16;
+    }
+
+    .altLogIn{
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(0, 254, 0);
+        border-radius: 6px;
+        width: 90%;
+        height: 5%;
+        background-color: rgba(255, 255, 255, 0.558);
+    }
+    
+}
+
+

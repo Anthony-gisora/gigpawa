@@ -1,0 +1,15 @@
+.categoryContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.pCategory{
+    min-width: fit-content;
+    background-color: sienna;
+    height: fit-content;
+    min-width: 10px;
+    min-height: 50%;
+    padding: 1px;
+    margin-right: 8px;
+    border-radius: 10px;
+}

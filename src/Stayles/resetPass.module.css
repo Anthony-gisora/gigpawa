@@ -1,0 +1,115 @@
+.resetPasswordContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(168, 122, 36);
+    border-radius: 10px;
+}
+
+.resetFormInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 70%;
+}
+
+.resetFormInput > label{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.inputFields{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.inputFields > input{
+    width: 77%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    color: black;
+    font-size: 18px; 
+}
+
+.resetFormInput > button{
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline ;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.submitBtn{
+    align-self: center;
+    width: 40%;
+    padding: 4px;
+    font-size: 18px;
+    height: 25%;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16;
+    min-width: fit-content;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: white;
+    color: green;
+}
+
+@media (max-width: 750px) {
+
+    .resetPasswordContainer{
+        width: 90%;
+        height: 60%;
+        background-color: aqua;
+    }
+    .resetFormInput{
+        height: 90%;
+        width: 100%;
+    }
+    .inputFields{
+        height: 90%;
+        width: 70%;
+
+    }
+    .inputFields > input{
+        width: 100%;
+        height: 35px;
+    }
+    .resetFormInput > button{
+        font-size: 16px;
+    }
+
+    .submitBtn{
+        width: 10%;
+        padding: 2px;
+        font-size: 16px;
+        height: 15%;
+        background-color: green;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-size: 16;
+        min-width: fit-content;
+        cursor: pointer;
+    }
+    
+    
+}
