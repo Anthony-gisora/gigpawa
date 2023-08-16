@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className={styles.resPowerd}>
                 <p>all rights reserved</p>
-                <p>powerd by <em>Actict dev</em></p>
+                <p>powered by <em>Actict dev</em></p>
             </div>
 
         </div>
