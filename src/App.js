@@ -1,6 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import JobSeeker from './pages/signUp/JobSeeker/jobSeeker';
+import ClientSignUp from './pages/signUp/client /client';
 import NavBarLayout from './component/navBar/layout';
 import LandingPage from './pages/landingPage/landingPage';
 import SignUpLandingPage from './pages/signUp/signUp';
