@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import JobSeeker from './pages/signUp/JobSeeker/jobSeeker';
-import ClientSignUp from './pages/signUp/client /client';
+import ClientSignUp from './pages/signUp/client/client';
 import NavBarLayout from './component/navBar/layout';
 import LandingPage from './pages/landingPage/landingPage';
 import SignUpLandingPage from './pages/signUp/signUp';
@@ -15,7 +15,6 @@ import UsingEmail from './pages/resetPassword/resetUsingEmail';
 import Verification from './pages/resetPassword/verification';
 import NewPassword from './pages/resetPassword/newPassword';
 import GigPawa from './pages/gigPawa/gigPawa';
-import ClientSignUp from './pages/signUp/client/client';
 
 
 function App() {
