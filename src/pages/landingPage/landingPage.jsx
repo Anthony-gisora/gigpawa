@@ -3,7 +3,7 @@ import styles from "../../Stayles/landingPage.module.css"
 import { useNavigate } from 'react-router-dom';
 import {motion} from 'framer-motion'
 import Card from '../../component/card/card';
-import Category from '../../component/category/Category';
+
 import {FaAngleRight} from 'react-icons/fa'
 
 //hard coded categories inplae of a get request from server or API
@@ -22,41 +22,41 @@ export const jobSeeking = [
 ]
 
 //hard coded categories inplae of a get request from server or API
-export const categories = [
-  {category: "Virtual Assistant", key: 1},
-  {category: "software developer", key: 2},
-  {category: "FrontEnd Developer", key: 3},
-  {category: "Transcription", key: 4},
-  { category: "Data Entry", key: 5 },
-  {category: "Data Analyst", key: 6},
-  { category: "Forex Trader", key: 7 },
-  { category: "Cyber Security", key: 8 },
-  {category: "Virtual Assistant", key: 1},
-  {category: "software developer", key: 2},
-  {category: "FrontEnd Developer", key: 3},
-  {category: "Transcription", key: 4},
-  { category: "Data Entry", key: 5 },
-  {category: "Data Analyst", key: 6},
-  { category: "Forex Trader", key: 7 },
-  { category: "Cyber Security", key: 8 },
-  {category: "Virtual Assistant", key: 1},
-  {category: "software developer", key: 2},
-  {category: "FrontEnd Developer", key: 3},
-  {category: "Transcription", key: 4},
-  { category: "Data Entry", key: 5 },
-  {category: "Data Analyst", key: 6},
-  { category: "Forex Trader", key: 7 },
-  { category: "Cyber Security", key: 8 },
-  {category: "Virtual Assistant", key: 1},
-  {category: "software developer", key: 2},
-  {category: "FrontEnd Developer", key: 3},
-  {category: "Transcription", key: 4},
-  { category: "Data Entry", key: 5 },
-  {category: "Data Analyst", key: 6},
-  { category: "Forex Trader", key: 7 },
-  { category: "Cyber Security", key: 8 },
+// export const categories = [
+//   {category: "Virtual Assistant", key: 1},
+//   {category: "software developer", key: 2},
+//   {category: "FrontEnd Developer", key: 3},
+//   {category: "Transcription", key: 4},
+//   { category: "Data Entry", key: 5 },
+//   {category: "Data Analyst", key: 6},
+//   { category: "Forex Trader", key: 7 },
+//   { category: "Cyber Security", key: 8 },
+//   {category: "Virtual Assistant", key: 1},
+//   {category: "software developer", key: 2},
+//   {category: "FrontEnd Developer", key: 3},
+//   {category: "Transcription", key: 4},
+//   { category: "Data Entry", key: 5 },
+//   {category: "Data Analyst", key: 6},
+//   { category: "Forex Trader", key: 7 },
+//   { category: "Cyber Security", key: 8 },
+//   {category: "Virtual Assistant", key: 1},
+//   {category: "software developer", key: 2},
+//   {category: "FrontEnd Developer", key: 3},
+//   {category: "Transcription", key: 4},
+//   { category: "Data Entry", key: 5 },
+//   {category: "Data Analyst", key: 6},
+//   { category: "Forex Trader", key: 7 },
+//   { category: "Cyber Security", key: 8 },
+//   {category: "Virtual Assistant", key: 1},
+//   {category: "software developer", key: 2},
+//   {category: "FrontEnd Developer", key: 3},
+//   {category: "Transcription", key: 4},
+//   { category: "Data Entry", key: 5 },
+//   {category: "Data Analyst", key: 6},
+//   { category: "Forex Trader", key: 7 },
+//   { category: "Cyber Security", key: 8 },
   
-]
+// ]
 
 const LandingPage = () => {
 
