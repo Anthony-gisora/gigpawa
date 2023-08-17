@@ -1,4 +1,4 @@
-import styles from '../../Stayles/gigpawa.module.css'
+
 import { FaStar } from 'react-icons/fa'
 import { BiGlobe } from 'react-icons/bi'
 
@@ -43,7 +43,7 @@ const GigPawa = () => {
                 {
                     workFeeds.map( ( work, index ) => {
                         return (
-                            <div key={index} className='flex flex-col mx-auto items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4'>
+                            <div key={index} className='flex flex-col mx-auto items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4 w'>
                                 <h2>{ work.title }</h2>
                                 <p>{ work.description }</p>
                                 <div className='flex flex-col'>
