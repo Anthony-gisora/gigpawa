@@ -35,28 +35,28 @@ const GigPawa = () => {
         }
     ]
     return ( 
-        <div className={styles.gigPawaContainer}>
-            <div className={styles.leftContent}>
+        <div className='flex flex-1 flex-row '>
+            <div className='w-[20%]'>
                 left side bar
             </div>
-            <div className={styles.feedsContainer}>
+            <div className='w-[60%]'>
                 {
                     workFeeds.map( ( work, index ) => {
                         return (
-                            <div key={index}>
+                            <div key={index} className='flex flex-col mx-auto items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4'>
                                 <h2>{ work.title }</h2>
                                 <p>{ work.description }</p>
-                                <div>
-                                    <div>
+                                <div className='flex flex-col'>
+                                    <div className='bg-green-500 tracking-tight w-100 '>
                                         {work.skills}
                                     </div>
-                                    <div className={styles.verifDetails}>
-                                        <p>$15-$20/hr</p>
-                                        <p>Due 3 weeks time</p>
-                                        <p>Posted 3 min ago </p>
-                                        <p>4 proposals</p>
-                                        <p> <FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar /><FaStar /> verified</p>
-                                        <p> <BiGlobe /> location</p>
+                                    <div className='flex flex-row mx-auto items-center justify-evenly '>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center'>$15-$20/hr</p>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' >Due 3 weeks time</p>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' >Posted 3 min ago </p>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' >4 proposals</p>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center flex ' > <FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar /><FaStar /> verified</p>
+                                        <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' > <BiGlobe /> location</p>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const GigPawa = () => {
                     })
                 }
             </div>
-            <div className={styles.rightContent}>
+            <div className='w-[20%]'>
                 right content
             </div>
         </div>
