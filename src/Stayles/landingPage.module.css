@@ -14,7 +14,7 @@
     justify-content: center;
     width: 98%;
     height: 97vh;
-    background-color: rgb(174, 183, 174);
+    background-color: rgba(174, 183, 174, 0.531);
     border-radius: 5px;
     padding: 0.5%;
 
@@ -43,7 +43,7 @@
     justify-content: center;
     margin: 0.5%;
     padding: 0.5%;
-    background-color: rgb(81, 65, 68);
+    background-color: rgba(81, 65, 68, 0.519);
 
 }
 
