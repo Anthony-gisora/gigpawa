@@ -23,7 +23,7 @@ export const jobSeeking = [
 
 //hard coded categories inplae of a get request from server or API
 export const categories = [
-  {category: "Virtial Assistant", key: 1},
+  {category: "Virtual Assistant", key: 1},
   {category: "software developer", key: 2},
   {category: "FrontEnd Developer", key: 3},
   {category: "Transcription", key: 4},
@@ -31,7 +31,7 @@ export const categories = [
   {category: "Data Analyst", key: 6},
   { category: "Forex Trader", key: 7 },
   { category: "Cyber Security", key: 8 },
-  {category: "Virtial Assistant", key: 1},
+  {category: "Virtual Assistant", key: 1},
   {category: "software developer", key: 2},
   {category: "FrontEnd Developer", key: 3},
   {category: "Transcription", key: 4},
@@ -39,7 +39,7 @@ export const categories = [
   {category: "Data Analyst", key: 6},
   { category: "Forex Trader", key: 7 },
   { category: "Cyber Security", key: 8 },
-  {category: "Virtial Assistant", key: 1},
+  {category: "Virtual Assistant", key: 1},
   {category: "software developer", key: 2},
   {category: "FrontEnd Developer", key: 3},
   {category: "Transcription", key: 4},
@@ -47,7 +47,7 @@ export const categories = [
   {category: "Data Analyst", key: 6},
   { category: "Forex Trader", key: 7 },
   { category: "Cyber Security", key: 8 },
-  {category: "Virtial Assistant", key: 1},
+  {category: "Virtual Assistant", key: 1},
   {category: "software developer", key: 2},
   {category: "FrontEnd Developer", key: 3},
   {category: "Transcription", key: 4},
@@ -75,7 +75,7 @@ return (
       } 
     </div>
     <div className={ styles.animatedDesc }>
-      <h1>GigPawa:</h1>
+      <h1 className='fw-700'>GigPawa</h1>
       <h2>Where Freelancing Dreams Take Flight!</h2>
       <p> Elevate your skills, connect with clients, and savor the sweet taste of success in the world of freelancing. Join our vibrant community today and add a dash of excitement to your freelance journey!<motion.button whileInView={{ x: 20}} initial={{scale: 1}} transition={{type:"tween", duration: 1}} className={styles.getStatedBtn} onClick={ () => navigate('/signUp') }>Get Started <FaAngleRight /> </motion.button></p>
       
