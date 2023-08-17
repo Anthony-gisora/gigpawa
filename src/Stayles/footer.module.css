@@ -6,7 +6,7 @@
     height: fit-content;
     width: 98%;
     border-radius: 10px;
-    background-color: gray;
+    background-color: #e0e0e09c;
 }
 
 .patnerSocialDescr{
@@ -59,7 +59,6 @@
     .footerContainer{
         width: 98%;
         border-radius: 10px;
-        background-color: gray;
     }
     .briefFooterDes > p{
         text-align: center;
