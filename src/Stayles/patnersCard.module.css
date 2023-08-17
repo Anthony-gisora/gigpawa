@@ -6,6 +6,8 @@
     width: 20%;
     height: 90%;
     border-radius: 20px;
+    background-color: #7238816e;
+
 }
 
 .patnerCardInnerContainer{
@@ -40,7 +42,7 @@
         width: 100%;
         height: fit-content;
         border-radius: 20px;
-        background-color: green;
+        background-color: #7238816e;
         margin-bottom: 4px;
     }
     .patnerCardInnerContainer{
