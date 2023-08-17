@@ -6,9 +6,9 @@ import { BiLogoFacebook, BiLogoInstagram, BiLogoTwitter } from 'react-icons/bi'
 const publicUrl = process.env.PUBLIC_URL ;
 
 const patners = [
-    {imgUrl: `${publicUrl}/assets/profile1.jpg`, name: "Anthony Gisemba", position: "Organizer"},
-    {imgUrl: `${publicUrl}/assets/profile2.jpg`, name: "Amos Sirima", position: "Technician"},
-    {imgUrl: `${publicUrl}/assets/profile3.jpg`, name: "John Doe", position: "Chaireman"}
+    {imgUrl: `${publicUrl}/assets/profile1.jpg`, name: "Anthony Gisemba", position: "Full stack Developer"},
+    {imgUrl: `${publicUrl}/assets/profile2.jpg`, name: "Amos Sirima", position: "Backend Developer"},
+    {imgUrl: `${publicUrl}/assets/profile3.jpg`, name: "Clifford Otieno", position: "Founder"}
 ]
 
 const Footer = () => {
