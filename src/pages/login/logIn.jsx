@@ -18,8 +18,8 @@ const LogIn = () => {
                 </div>
                 <input className={ styles.submitBtn } type="submit" value="LogIn" />
                 <div className={styles.fogotNewAccount}>
-                    <p>Forgot Password <NavLink to='/reset password'>Password</NavLink> ? </p>
-                    <p>Create <NavLink to='/signup'>Account</NavLink>  </p>
+                    <p>Forgot Password <NavLink to='/reset password' className='text-blue-800'>Password</NavLink> ? </p>
+                    <p>Create <NavLink to='/signup' className='text-blue-800' >Account</NavLink>  </p>
                 </div>
             </form>
         </div>

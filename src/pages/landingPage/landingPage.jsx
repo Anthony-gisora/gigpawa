@@ -75,7 +75,7 @@ return (
       } 
     </div>
     <div className={ styles.animatedDesc }>
-      <h1 className='fw-700'>GigPawa</h1>
+      <h1 className='fw-700 text-xl text-bold mb-4'>GigPawa</h1>
       <h2>Where Freelancing Dreams Take Flight!</h2>
       <p> Elevate your skills, connect with clients, and savor the sweet taste of success in the world of freelancing. Join our vibrant community today and add a dash of excitement to your freelance journey!<motion.button whileInView={{ x: 20}} initial={{scale: 1}} transition={{type:"tween", duration: 1}} className={styles.getStatedBtn} onClick={ () => navigate('/signUp') }>Get Started <FaAngleRight /> </motion.button></p>
       

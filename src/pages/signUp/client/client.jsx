@@ -1,6 +1,5 @@
 import styles from "../../../Stayles/signUp.module.css"
 import { NavLink, useNavigate } from "react-router-dom";
-import { BsGoogle } from 'react-icons/bs'
 
 const ClientSignUp = () => {
 
@@ -8,10 +7,10 @@ const ClientSignUp = () => {
 
     return ( 
         <div className={styles.jobSeekerContainer}>
-                <h2>Client SignUp</h2>
+                <h2 className='text-xl '>Client SignUp</h2>
             <div className={ styles.formContainer }>
                 <div className={styles.altLogIn}> 
-                    <button>Continue With Google <BsGoogle style={{marginLeft: "10px", alignSelf:"center", color:"blue"}} /> </button>
+                    <button>Continue With Google  </button>
                 </div>
                 <form className={ styles.formInputs }>
                     <div className={ styles.name }>
@@ -40,7 +39,7 @@ const ClientSignUp = () => {
 
                 </form>
                 <button onClick={()=> navigate('/create profile')}  className={styles.submitBtn}>Submit & Create Profile</button>
-                <p>Have an account? <NavLink to='/login'>Login</NavLink> </p>
+                <p>Have an account? <NavLink to='/login' className='text-blue-800' >Login</NavLink> </p>
 
             </div>
         </div>

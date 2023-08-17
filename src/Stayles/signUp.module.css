@@ -16,7 +16,7 @@
     height: 80%;
     border:2px solid rgb(3, 239, 232);
     border-radius: 3%;
-    background-color: rgba(130, 137, 133, 0.472);
+    background-color: rgba(130, 137, 133, 0.472); 
     justify-content: center;
 }
 
@@ -124,7 +124,8 @@ input::placeholder{
 @media (max-width: 750px) {
     .formContainer{
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
+
     }
     .formInputs{
         height: fit-content;

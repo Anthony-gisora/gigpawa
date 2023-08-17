@@ -9,7 +9,7 @@ const SignUpLandingPage = () => {
     return ( 
         <div style={ { display: "flex", flexDirection: "column", height: "90%", alignItems: "center", justifyContent:"center"}}>
         
-        <div className={styles.signUpLPContainer}>
+        <div className={styles.signUpLPContainer }>
             <div className={styles.clientContainer}>
                 <p className={styles.clientDes}>
                     Sign Up to Gig Pawa as a <em>CLient,</em> offer jobs and get back the solutions.
@@ -25,7 +25,7 @@ const SignUpLandingPage = () => {
             </div>
             
         </div>
-        <p>Have an account? <NavLink to='/login'>Login</NavLink> </p>
+        <p>Have an account? <NavLink to='/login' className='text-blue-800'>Login</NavLink> </p>
         </div>
      );
 }
