@@ -65,7 +65,7 @@ const LandingPage = () => {
 
 return (
   <div className={styles.landingPageContaine}>
-    <div className={ styles.categoryList } >
+    {/* <div className={ styles.categoryList } >
       {
         categories.map( ( category ) => {
           return (
@@ -73,7 +73,7 @@ return (
           )
         })
       } 
-    </div>
+    </div> */}
     <div className={ styles.animatedDesc }>
       <h1 className='fw-700 text-xl text-bold mb-4'>GigPawa</h1>
       <h2>Where Freelancing Dreams Take Flight!</h2>
