@@ -39,24 +39,24 @@ const GigPawa = () => {
             <div className='w-[20%] md:block hidden'>
                 left side bar
             </div>
-            <div className='w-[60%] sm:w-[100%]'>
+            <div className='w-[100%] mg:w-[60%] sm:w-[100%]'>
                 {
                     workFeeds.map( ( work, index ) => {
                         return (
-                            <div key={index} className=' flex flex-col  mx-0 md:mx-2 items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4 '>
-                                <h2>{ work.title }</h2>
+                            <div key={index} className='flex flex-col mx-auto px-1 space-y-4'>
+                                <h2 className=''>{ work.title }</h2>
                                 <p>{ work.description }</p>
                                 <div className='flex flex-col'>
-                                    <div className='bg-green-500 blur-xl tracking-tight w-100 '>
+                                    <div className=''>
                                         {work.skills}
                                     </div>
-                                    <div className='flex'>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center'>$15-$20/hr</p>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center' >Due 3 weeks time</p>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center' >Posted 3 min ago </p>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center' >4 proposals</p>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center' > <FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar /><FaStar /> verified</p>
-                                        <p className='mx-0 md:mx-2 py-0 md:py-1 px-1 border-rounded rounded-xl my-1 md:my-1 text-[16px] border w-fit  flex items-center justify-center bg-slate-800 text-white text-center' > <BiGlobe /> location</p>
+                                    <div className=''>
+                                        <p className=''>$15-$20/hr</p>
+                                        <p className='' >Due 3 weeks time</p>
+                                        <p className='' >Posted 3 min ago </p>
+                                        <p className='' >4 proposals</p>
+                                        <p className='' > <FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar color='rgb(0, 255, 0)' /><FaStar /><FaStar /> verified</p>
+                                        <p className='' > <BiGlobe /> location</p>
                                     </div>
                                 </div>
                             </div>
