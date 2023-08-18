@@ -79,7 +79,7 @@ const LandingPage = () => {
       initial={ { y: 90 } }
       transition={{type: 'tween' , duration: 0.6}}
         className={ styles.briefDesc }>
-      <div className=' bg-getStated  bg-auto md:bg-cover text-white flex   bg-fixed bg-no-repeat flex-col items-center justify-center m-1/2 p-1/2  p-4 m-2 rounded-md'>
+      <div className=' bg-getStated  bg-auto md:bg-cover  flex   bg-fixed bg-no-repeat flex-col items-center justify-center m-1/2 p-1/2  p-4 m-2 rounded-md'>
         <motion.h3
           whileInView={ { y: 0} }
           initial={ { y: 90} }
