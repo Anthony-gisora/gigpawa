@@ -5,7 +5,7 @@ const NavBarLayout = ({children}) => {
     return ( 
         <>
             <NavBar />
-            <div>
+            <div >
                 {children}
             </div>
         </>

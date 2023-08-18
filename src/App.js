@@ -15,6 +15,7 @@ import UsingEmail from './pages/resetPassword/resetUsingEmail';
 import Verification from './pages/resetPassword/verification';
 import NewPassword from './pages/resetPassword/newPassword';
 import GigPawa from './pages/gigPawa/gigPawa';
+import LoggedInNavBarLayout from './component/navBar/loggedInNavLayout';
 
 
 function App() {
@@ -35,10 +36,15 @@ function App() {
           </NavBarLayout>
       } />
       <Route path='/gigpawa' element={
-        <NavBarLayout>
+// .searchCont{
+//     width: 60%;
+//     height: 50%;
+//     /* background-color: blueviolet; */
+// }
+        <LoggedInNavBarLayout>
           <div className="App">
-            <div className={ styles.searchSec }>
-                <div className={styles.searchCont}>
+            <div className='flex items-center justify-center w-[10%] mt-9 mb-9 '>
+                <div className='flex items-center justify-center w-[60%] h-[50%]'>
                     <input className={ styles.searchInput } type="search" placeholder="Search for Job e.g Virtial Assistant" />
                     <button className={styles.searchBtn}>search</button>
                 </div>
@@ -46,7 +52,7 @@ function App() {
             <GigPawa />
             <Footer />
           </div>
-          </NavBarLayout>
+          </LoggedInNavBarLayout>
       } />
       <Route path='/testing' element={
         <Testing />
