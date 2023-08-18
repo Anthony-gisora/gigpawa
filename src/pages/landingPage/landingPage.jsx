@@ -6,7 +6,7 @@ import Card from '../../component/card/card';
 import image from '../../baby.jpeg'
 
 
-import {FaAngleRight} from 'react-icons/fa'
+
 
 //hard coded categories inplae of a get request from server or API
 export const jobSeeking = [
