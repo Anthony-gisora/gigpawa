@@ -1,4 +1,4 @@
-.gigPawaContainer{
+/* .gigPawaContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,15 +46,11 @@
 
 @media (max-width: 750px) {
     .gigPawaContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        margin: 2px;
+        
+    
     }
     .leftContent, .rightContent{
         display: none;
 
     }
-}
+} */

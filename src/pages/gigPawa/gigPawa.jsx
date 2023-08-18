@@ -36,21 +36,21 @@ const GigPawa = () => {
     ]
     return ( 
         <div className='flex flex-1 flex-row '>
-            <div className='w-[20%]'>
+            <div className='w-[20%] md:block hidden'>
                 left side bar
             </div>
-            <div className='w-[60%]'>
+            <div className='w-[60%] sm:w-[100%]'>
                 {
                     workFeeds.map( ( work, index ) => {
                         return (
-                            <div key={index} className=' flex flex-col mx-auto items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4 w'>
+                            <div key={index} className=' flex flex-col mx-2 md:mx-0 items-center justify-center bg-green-200 rounded-[10px] mb-3 px-4 '>
                                 <h2>{ work.title }</h2>
                                 <p>{ work.description }</p>
                                 <div className='flex flex-col'>
                                     <div className='bg-green-500 blur-xl tracking-tight w-100 '>
                                         {work.skills}
                                     </div>
-                                    <div className=' flex flex-row mx-auto items-center justify-evenly '>
+                                    <div className=' flex flex-row mx-auto items-center justify-evenly md:overflow-auto bg-maroon'>
                                         <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center'>$15-$20/hr</p>
                                         <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' >Due 3 weeks time</p>
                                         <p className='mx-2 py-1 px-1 border-rounded rounded-xl my-2 text-[16px] border w-fit min-w-[100px] flex items-center justify-center bg-slate-800 text-white text-center' >Posted 3 min ago </p>
@@ -64,7 +64,7 @@ const GigPawa = () => {
                     })
                 }
             </div>
-            <div className='w-[20%]'>
+            <div className='w-[20%] md:block hidden'>
                 right content
             </div>
         </div>

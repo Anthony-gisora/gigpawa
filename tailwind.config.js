@@ -4,6 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx,}"
   ],
   theme: {
+    backgroundImage:{
+      getStated: " url(./images/getStated.jpg)",
+      ban: " url(./images/ban.svg)",
+      add: "url(./images/add.svg)"
+    },
     extend: {},
   },
   plugins: [],

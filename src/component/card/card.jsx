@@ -3,16 +3,16 @@ import { motion } from 'framer-motion';
 
 const Card = ( { title, description } ) => {
     return ( 
-        <motion.div className={ styles.cardContainer }
+        <motion.div className='flex flex-col items-center justify-center m-6'
         
             whileInView={ { y: 0} }
             initial={ { y: 90 } }
-            transition={{type: 'tween' , duration: 0.6}}
+            transition={ { type: 'tween', duration: 0.6 } }
         >
             <div >
-                <h1>{ title }</h1>
+                <h1 className='text-[24px] md:text-[28px] font-semibold'>{ title }</h1>
             </div>
-            <div className={styles.cardDescription}>
+            <div className='text-center text-[18px] md:text-[20px]'>
                 <p className={ styles.pDes }>{ description }</p>
             </div>
         </motion.div>
