@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage:{
-      getStated: " url(./images/getStated.jpg)",
+      getStated: " url(./images/getStated.svg)",
       ban: " url(./images/ban.svg)",
       add: "url(./images/add.svg)"
     },

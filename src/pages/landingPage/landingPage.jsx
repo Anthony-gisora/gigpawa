@@ -64,19 +64,14 @@ const LandingPage = () => {
 
 
   return (
-// .animatedDesc{
-//         height: 70vh;
-//         border-radius: 3px;
-//         margin: 1px;
-//         padding: 1px;
-//     }
+
   <div className='w-full flex flex-col items-center justify-center '>
     
       <div className=' bg-ban  flex p-2 mix-blend-soft-different m md:p-6 flex-col items-start justify-center w-[100%] md:w-[98%] h-[70vh] md:h-[97vh]  rounded-md p-1/2 '>
         
           <h1 className='fw-700 text-[24px] text-bold mb-4 font-bold'>Explore with GigPawa</h1>
           <h2 className='text-[22px] font-semibold'>Where Freelancing Dreams Take Flight!</h2>
-          <p className='text-[18px]'> Elevate your skills, connect with clients, and savor the sweet taste of success in the world of freelancing. Join our vibrant community today and add a dash of excitement to your freelance journey!<motion.button whileInView={{ x: 20}} initial={{scale: 1}} transition={{type:"tween", duration: 1}} className={styles.getStatedBtn} onClick={ () => navigate('/signUp') }>Get Started <FaAngleRight /> </motion.button></p>
+          <p className='text-[18px]'> Elevate your skills, connect with clients, and savor the sweet taste of success in the world of freelancing. Join our vibrant community today and add a dash of excitement to your freelance journey!<motion.button whileInView={{ x: 20}} initial={{scale: 1}} transition={{type:"tween", duration: 1}} className='flex justify-evenly items-center bg-[#61f3f586] w-[130px] rounded-md' onClick={ () => navigate('/signUp') }>Get Started <FaAngleRight /> </motion.button></p>
 
     </div>
     <motion.div
@@ -84,7 +79,7 @@ const LandingPage = () => {
       initial={ { y: 90 } }
       transition={{type: 'tween' , duration: 0.6}}
         className={ styles.briefDesc }>
-      <div className=' bg-getStated bg-blend-saturation  bg-auto md:bg-cover text-black/100 flex  mix-blend-darken bg-fixed bg-no-repeat flex-col items-center justify-center m-1/2 p-1/2  p-4 m-2 rounded-md'>
+      <div className=' bg-getStated  bg-auto md:bg-cover text-white flex   bg-fixed bg-no-repeat flex-col items-center justify-center m-1/2 p-1/2  p-4 m-2 rounded-md'>
         <motion.h3
           whileInView={ { y: 0} }
           initial={ { y: 90} }
@@ -101,10 +96,6 @@ const LandingPage = () => {
 
       </div>
       </motion.div>
- {/* .empower{
-        width: 100%;
-        flex-direction: column;
-    } */}
     <div className='bg-add bg-no-repeat bg-auto md:bg-cover flex flex-col items-center overflow-scroll w-[100%] h-[70vh] '>
       {
         jobSeeking.map( ( info ) => {
