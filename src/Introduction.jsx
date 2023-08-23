@@ -1,5 +1,4 @@
 import React from 'react'
-import video from './assets/intro.mp4'
 const Introduction = () => {
   return (
     <div>
@@ -16,7 +15,7 @@ const Introduction = () => {
     <p>Our support consists of real people who are available 24/7. We understand that you may need help with your account, and we're here to make sure you have the best experience possible.</p>
     </div>
     <div>
-    <video src={video} controls  width='100%' height='100%' className='rounded-medium'/>
+   video demo {/* <video src={video} controls  width='100%' height='100%' className='rounded-medium'/> */}
     </div>
     </div>
     
