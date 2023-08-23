@@ -14,8 +14,8 @@ import ResetPass from './pages/resetPassword/researtPassword';
 import UsingEmail from './pages/resetPassword/resetUsingEmail';
 import Verification from './pages/resetPassword/verification';
 import NewPassword from './pages/resetPassword/newPassword';
-import GigPawa from './pages/gigPawa/gigPawa';
 import LoggedInNavBarLayout from './component/navBar/loggedInNavLayout';
+import JobFeeds from './pages/gigPawa/jobFeeds';
 
 
 function App() {
@@ -43,14 +43,9 @@ function App() {
 // }
         <LoggedInNavBarLayout>
           <div className="App">
-            <div className='flex items-center justify-center w-[10%] mt-9 mb-9 '>
-                <div className='flex items-center justify-center w-[60%] h-[50%]'>
-                    <input className={ styles.searchInput } type="search" placeholder="Search for Job e.g Virtial Assistant" />
-                    <button className={styles.searchBtn}>search</button>
-                </div>
+            <div className='w-full'>
+              <JobFeeds />
             </div>
-            <GigPawa />
-            <Footer />
           </div>
           </LoggedInNavBarLayout>
       } />
