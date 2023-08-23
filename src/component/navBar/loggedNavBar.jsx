@@ -4,7 +4,7 @@ import dp from '../../images/profile.jpg'
 const LoggedInNavBar = () => {
     return ( 
         <div className="flex items-center justify-between ">
-            <div className="m-3 w-[30px] h-[30px] rounded-full">
+            <div className="m-3 w-[30px] h-[30px] rounded-full md:hidden">
                 <img src={dp} alt='dp' className='w-full h-full rounded-full'/>
             </div>  
             <div className="m-6 text-[24px] text-[#723881] w-[50%">
