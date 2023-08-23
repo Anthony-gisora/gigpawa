@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import {motion} from 'framer-motion'
 import Card from '../../component/card/card';
 import image from '../../baby.jpeg'
+import Scrollable from '../../scrollable/Scrollable';
+import Introduction from '../../Introduction';
 
 
 
@@ -99,6 +101,11 @@ const LandingPage = () => {
 
       </div>
       </motion.div>
+      <div>
+       <Scrollable />
+      </div>
+      <Introduction />
+      
     <div className=' text-dark font-sans mt-[90px] grid lg:grid-cols-3 mb-[90px] '>
       {
         jobSeeking.map( ( info ) => {

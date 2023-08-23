@@ -6,10 +6,10 @@ import { BiMenu } from 'react-icons/bi'
 const NavBar = () => {
     
     return ( 
-        <div  className={styles.navGenDiv}>
+        <div  className={`${styles.navGenDiv} bg-blue-950`}>
             <div className={ styles.navBarContainer }>
                 <div className={styles.logo}>
-                    <Logo h={ 110 } w={ 110 } />
+                    
                     <p>GigPawa</p>
                 </div>
                 <div className={ styles.altNavLink }>
