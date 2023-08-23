@@ -1,5 +1,4 @@
 import {  NavLink } from "react-router-dom";
-import Logo from "../companyLogo/logo";
 import styles from "../../Stayles/navBar.module.css"
 import { BiMenu } from 'react-icons/bi'
 
